@@ -17,3 +17,9 @@ print("a is b:", a is b)
 
 print("a == c:", a == c)
 print("a is c:", a is c)
+
+num_a = 1
+num_b = 1
+
+print("num_a == num_b", num_a == num_b)
+print("num_a is num_b", num_a is num_b)
