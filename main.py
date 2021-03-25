@@ -17,3 +17,7 @@ print("a is b:", a is b)
 
 print("a == c:", a == c)
 print("a is c:", a is c)
+
+print(a, b, c)
+a.append(4)
+# TODO: modify other lists
