@@ -28,4 +28,7 @@ print()
 
 print(a, b, c)
 a.append(4)
-# TODO: modify other lists
+b.append(9)
+c.append(5)
+print(a, b, c)
+
