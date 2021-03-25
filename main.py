@@ -18,6 +18,8 @@ print("a is b:", a is b)
 print("a == c:", a == c)
 print("a is c:", a is c)
 
+# Added feature (compare ints)
+
 num_a = 1
 num_b = 1
 
