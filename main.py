@@ -17,20 +17,3 @@ print("a is b:", a is b)
 
 print("a == c:", a == c)
 print("a is c:", a is c)
-
-# Added feature (compare ints)
-
-num_a = 1
-num_b = 1
-
-print("num_a == num_b", num_a == num_b)
-print("num_a is num_b", num_a is num_b)
-
-print()
-
-print(a, b, c)
-a.append(4)
-b.append(9)
-c.append(5)
-print(a, b, c)
-
