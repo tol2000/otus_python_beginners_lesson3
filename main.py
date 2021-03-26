@@ -23,3 +23,9 @@ num_b = 1
 
 print("num_a == num_b", num_a == num_b)
 print("num_a is num_b", num_a is num_b)
+
+print(a, b, c)
+a.append(4)
+b.append(9)
+c.append(5)
+print(a, b, c)
