@@ -47,7 +47,3 @@ print("exists == 1?", exists == 1)
 print("id of exists:", id(exists))
 print("id of int 1:", id(int(1)))
 
-
-print("type(a)", type(a))
-print("type(a) is type(b)", type(a) is type(b))
-print("type(a) is type(c)", type(a) is type(c))
