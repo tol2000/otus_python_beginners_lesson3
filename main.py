@@ -35,3 +35,18 @@ print("a is list-like type?", isinstance(a, (list, tuple)), type(a))
 
 t = ()
 print("t is list-like type?", isinstance(t, (list, tuple)), type(t))
+
+exists = True
+
+print("type of exists:", type(exists))
+print("'exists' is type of int?", isinstance(exists, int))
+print("exists to int:", int(exists))
+print("exists is 1?", exists is 1)
+print("exists == 1?", exists == 1)
+print("id of exists:", id(exists))
+print("id of int 1:", id(int(1)))
+
+
+print("type(a)", type(a))
+print("type(a) is type(b)", type(a) is type(b))
+print("type(a) is type(c)", type(a) is type(c))
