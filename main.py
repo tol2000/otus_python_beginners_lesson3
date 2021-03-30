@@ -30,6 +30,7 @@ b.append(9)
 c.append(5)
 print(a, b, c)
 
+# check types of lists
 print("a is list type?", isinstance(a, list))
 print("a is list-like type?", isinstance(a, (list, tuple)), type(a))
 
