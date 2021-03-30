@@ -61,3 +61,12 @@ def get_user(user_id):
         cache[user_id] = u
         return u
     return cache[user_id]
+
+
+u1 = get_user(7)
+u2 = get_user(7)
+"""
+u1 == u2  # is True
+u1.id == u2.id  # is True
+u1 is not u2  # is True
+"""
