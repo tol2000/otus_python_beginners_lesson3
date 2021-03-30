@@ -29,3 +29,9 @@ a.append(4)
 b.append(9)
 c.append(5)
 print(a, b, c)
+
+print("a is list type?", isinstance(a, list))
+print("a is list-like type?", isinstance(a, (list, tuple)), type(a))
+
+t = ()
+print("t is list-like type?", isinstance(t, (list, tuple)), type(t))
