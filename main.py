@@ -74,3 +74,6 @@ u1 is not u2  # is True
 
 # Added main master feature
 a = [1, 2, 3]
+
+# Added main master feature 2
+b = [4, 5, 6]
