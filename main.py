@@ -71,3 +71,6 @@ u1 == u2  # is True
 u1.id == u2.id  # is True
 u1 is not u2  # is True
 """
+
+# Added main master feature
+a = [1, 2, 3]
