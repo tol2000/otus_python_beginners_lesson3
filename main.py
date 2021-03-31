@@ -48,3 +48,26 @@ print("id of exists:", id(exists))
 print("id of int 1:", id(int(1)))
 
 # End of the current master
+
+print("type(a)", type(a))
+print("type(a) is type(b)", type(a) is type(b))
+print("type(a) is type(c)", type(a) is type(c))
+
+cache = {}
+
+
+def get_user(user_id):
+    if user_id not in cache:
+        u = ...
+        cache[user_id] = u
+        return u
+    return cache[user_id]
+
+
+u1 = get_user(7)
+u2 = get_user(7)
+"""
+u1 == u2  # is True
+u1.id == u2.id  # is True
+u1 is not u2  # is True
+"""
